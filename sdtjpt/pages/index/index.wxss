@@ -1,0 +1,307 @@
+/*banner*/
+.banner{
+	height:10rem;
+	overflow: hidden;
+}
+.banner image{
+	display: block;
+	width: 100%;
+	height: 10rem;
+}
+
+/*index 头部*/
+.indexHeader{
+	width: 100%;
+	height:2rem;
+	line-height: 2rem;
+	position: absolute;
+	top: 0.3rem;
+	left:0;
+}
+.position{
+	font-size: 0.5rem;
+	color:#fff;
+	margin-left:0.5rem;
+}
+.position p{
+	font-size: 0.5rem;
+	color:#fff;
+	margin-left:0.1rem;
+  top:0.1rem;
+}
+.position>i{
+	font-size: 1.2rem;
+	margin-right: 0.2rem;
+	position: relative;
+	top: 0.1rem;
+}
+.searchBox{
+	width:80vw;
+	margin-left:0.5rem;
+	position: relative;
+}
+.searchBox i{
+	position: absolute;
+	top: 0.3rem;
+	left: 0.5rem;
+	color:#fff;
+}
+.searchIpt{
+	width: 90%;
+	height: 1.5rem;
+	background: white;
+	opacity: 0.8;
+	font-size: 0.75rem;
+	color: #666666;
+	border-radius: 15px;
+	text-indent: 1.7rem;
+}
+.qrCodeBox i{
+	color:#fff;
+	margin-right:0.5rem;
+	font-size: 1.2rem;
+	position: relative;
+	top: 0.15rem;
+}
+
+/*6块*/
+.indexMenu dl{
+	width: 33.3%;
+	text-align: center;
+	float: left;
+	margin:0.5rem 0;
+}
+.indexMenu dl a{
+	display: block;
+}
+.indexMenu dl dt image{
+	width:3rem;
+	height:3rem;
+}
+.indexMenu dl dd{
+	font-size:0.8rem;
+}
+
+
+
+.table{
+	width:95%;
+	margin:0.5rem 2%;
+	font-size:0.75rem;
+	border-top:1px #ddd solid;
+	border-left:1px #ddd solid;
+}
+.tableXq{
+	width: 100%;
+	margin:0;
+	position: relative;
+	top:0.5rem;
+}
+.table tr td{
+	padding:0 0.3rem;
+	line-height: 2;
+	border-right:1px #ddd solid;
+	border-bottom:1px #ddd solid;
+}
+.blackTitle,.blackTitle1{
+	width:96%;
+	overflow: hidden;
+	padding:0.5rem 2% 0;
+}
+.blackTitle li,.blackTitle1 li{
+	float: left;
+	display: inline-block;
+	padding:0 0.4rem;
+	height:1.5rem;
+	line-height: 1.5rem;
+	float: left;
+	text-align: center;
+	border:1px #ddd solid;
+	border-radius: 6px;
+	font-size: 0.75rem;
+	color: #666;
+	margin-right:0.3rem;
+	margin-bottom: 0.5rem;
+}
+.blackTitle li.select,.blackTitle1 li.select{
+	background: #3FB430;
+	color:#fff;
+}
+.blackCon>div,.blackCon1>div{
+	display: none;
+}
+.blackCon>div.show,.blackCon1>div.show{
+	display: block;
+}
+
+input, textarea {
+	border: 0;
+	appearance: none; 
+}
+
+
+ul, ol, li {
+	list-style: none;
+}
+
+body {
+    font-family:Helvetica,"Microsoft YaHei",arial,sans-serif;
+    color: #333;
+    font-size:0.875rem;
+    background: #f7f7f9;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+a {
+	color:#333;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.tl{
+	text-align: left;
+}
+.tc{
+	text-align: center;
+}
+.tr{
+	text-align: right;
+}
+/*按钮*/
+.btn{
+	background: #3FB430;
+	height:2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+	border-radius: 4px;
+	color:#fff;
+	border:1px solid #3FB430;
+}
+.input{
+	width: 97%;
+	height:2.4rem;
+	line-height: 2.4rem;
+	border-radius: 4px;
+	color:#333;
+	padding:0 1.5%;
+	border:1px solid #ddd;
+}
+/*盒子*/
+.box{
+	width:100%;
+	margin-top:0.5rem;
+	padding:0.5rem 2%;
+	overflow: hidden;
+	background: #fff;
+}
+.box1{
+	width:100%;
+	margin-top:0.5rem;
+	overflow: hidden;
+	background: #fff;
+}
+.section{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom:3rem;
+}
+.whiteBox{
+	width: 100%;
+	height:100%;
+	background: #fff;
+}
+/*字体*/
+.orange{
+	color:#ff9e3a;
+	font-size:0.75rem;
+}
+.green{
+	color:#3FB430;
+	font-size:0.75rem;
+}
+/*头部*/
+.header{
+	width:100%;
+	height:3rem;
+	line-height: 3rem;
+	background: #fff;
+	border-bottom:1px #ddd solid;
+	position: relative;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+}
+.header>h2{
+	text-align: center;
+	font-size:1.2rem;
+}
+.header .imgLeft{
+	width:1.4rem;
+	height:1.4rem;
+	position: absolute;
+	left:0.5rem;
+	top:0.8rem;
+}
+.header .imgRight{
+	width:1.4rem;
+	height:1.4rem;
+	position: absolute;
+	right:2.5rem;
+	top:0.8rem;
+}
+.header .txtRight{
+	position: absolute;
+	right:1rem;
+	top:0;
+	cursor: pointer;
+}
+
+/*footer*/
+.indexFooter{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+	height:3rem;
+	background: #f7f7f9;
+	border-top: 1px #ddd solid;
+}
+.indexFooter ul li{
+	width:20%;
+	float: left;
+	text-align: center;
+}
+.indexFooter ul li a{
+	width: 100%;
+	height:1.2rem;
+	display: block;
+	color:#666;
+	font-size:0.8rem;
+}
+.indexFooter ul li a i{
+	display: block;
+	font-size:1.2rem;
+	margin: 0.3rem 0 0.1rem;
+}
+.indexFooter ul li.link a{
+	color:#3FB430;
+}
+.qrcode{
+	float: left;
+	text-align: center;
+	position: relative;
+	top:-0.6rem;
+	width:3.5rem;
+	height:3.5rem;
+	line-height: 3.5rem;
+	background: #f7f7f9;
+	font-size: 2rem;
+	border:1px #ddd solid;
+	border-radius: 50%;
+}

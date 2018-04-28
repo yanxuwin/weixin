@@ -1,0 +1,13 @@
+<!--pages/svc/svc.wxml-->
+<view >
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{testList}}">
+      <swiper-item >
+          <image src="{{item.original_img}}"  />
+          <text>{{item.goods_sn}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+
+</view>

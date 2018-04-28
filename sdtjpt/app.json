@@ -1,0 +1,60 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/cart/cart",
+    "pages/svc/svc",
+    "pages/eqp/eqp",
+    "pages/map/map",
+    "pages/set/set",
+    "pages/org/org",
+    "pages/ord/ord",
+    "pages/test/test",
+    "pages/indexSearch/indexSearch",
+    "pages/mapSearch/mapSearch"
+  ],
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#229DDD",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "img/home1.png",
+        "iconPath": "img/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/svc1.png",
+        "iconPath": "img/svc.png",
+        "pagePath": "pages/svc/svc",
+        "text": "技术服务"
+      },
+      {
+        "selectedIconPath": "img/map1.png",
+        "iconPath": "img/map.png",
+        "pagePath": "pages/map/map",
+        "text": "资源地图"
+      },
+      {
+        "selectedIconPath": "img/cart1.png",
+        "iconPath": "img/cart.png",
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "img/set1.png",
+        "iconPath": "img/set.png",
+        "pagePath": "pages/eqp/eqp",
+        "text": "设置"
+      }
+    ]
+  },
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首都科技条件平台",
+    "navigationBarTextStyle":"black"
+  }
+}

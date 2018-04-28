@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="indexHeader">
+  <view class="position fl">
+    <i class="fa fa-map-marker"></i>
+    <p>{{currentCity}}</p>
+  </view>
+  <view class="searchBox fl">
+    <a bindtap="tosrch">
+      <i class="fa fa-search"></i>
+      <input type="text" style="padding-left:5px;" placeholder="输入要查找的服务名称或信息" class="searchIpt"/>
+    </a>
+  </view>
+</view>
+
+<!--banner-->
+<view class="banner">
+  <image src="../../img/topimg.png"/>
+</view>
+
+<view class="section">
+    
+  <!--6块-->
+  <view class="box indexMenu">
+    <dl>
+      <a bindtap="toorg">
+        <dt><image src="../../img/indexIcon1.png"></image></dt>
+        <view><dd>服务机构</dd></view>
+      </a>
+    </dl>
+    <dl>
+      <a bindtap="tosvc">
+        <dt><image src="../../img/indexIcon2.png"/></dt>
+        <view><dd>技术服务</dd></view>
+      </a>
+    </dl>
+    <dl>
+      <a bindtap="totest">
+        <dt><image src="../../img/indexIcon3.png"/></dt>
+        <view><dd>检验检测</dd></view>
+      </a>
+    </dl>
+    <dl>
+      <a bindtap="toeqp">
+        <dt><image src="../../img/indexIcon4.png"/></dt>
+        <view><dd>仪器设备</dd></view>
+      </a>
+    </dl>
+    <dl>
+      <a bindtap="toord">
+        <dt><image src="../../img/indexIcon5.png"/></dt>
+        <view><dd>订单管理</dd></view>
+      </a>
+    </dl>
+    <dl>
+      <a bindtap="tomap">
+        <dt><image src="../../img/indexIcon6.png"/></dt>
+        <view><dd>资源定位</dd></view>
+      </a>
+    </dl>
+  </view>
+</view>

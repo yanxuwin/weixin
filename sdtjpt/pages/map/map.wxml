@@ -1,0 +1,11 @@
+<view class="mapHeader">
+  <view class="searchBox fl">
+    <a bindtap="tomsrch">
+      <i class="fa fa-search"></i>
+      <input type="text" style="padding-left:5px;" placeholder="查找服务" class="searchIpt"/>
+    </a>
+  </view>
+</view>
+<view class="mapClass">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" circles="{{circles}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: {{view.Height}}px;"></map>
+</view>

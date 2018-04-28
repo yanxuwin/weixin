@@ -1,0 +1,45 @@
+/*mapClass*/
+.mapClass {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+  position: absolute;
+  z-index:-1;
+}
+/*index 头部*/
+.mapHeader{
+	width: 100%;
+	height:2rem;
+	line-height: 2rem;
+	position: absolute;
+	top: 0.3rem;
+	left:0;
+}
+.searchBox{
+	width:90%;
+	margin:0 auto;
+	position: relative;
+	height: 1.5rem;
+	background: #fff;
+	border-radius: 5px;
+  z-index:9997;
+  box-shadow: darkgrey 1px 1px 1px 1px ;
+}
+.searchBox i{
+	position: absolute;
+	top: 0.3rem;
+  z-index:9999;
+	left: 0.5rem;
+	color:#666666;
+}
+.searchIpt{
+	width: 89%;
+	height: 1.5rem;
+	background: #fff;
+	font-size: 0.75rem;
+	color: #666666;
+  float:right;
+	border-radius: 5px;
+  position: relative;
+  z-index:9998;
+}
